@@ -2,7 +2,7 @@
 //  main.cpp
 //  degenerateStringSearching
 //
-//  Created by 朱文尧 on 08/08/2022.
+//  Created by Wenyao Zhu on 22/07/2022.
 //
 
 #include <iostream>
