@@ -115,7 +115,7 @@ int* computePeriodDegenerate(degenerateString d_str) {
                 for (int j=0; j<border; j++) {
                     degenerateString tmp_x = d_str.d_substr(0, border - 1);
                     degenerateString tmp_y = d_str.d_substr(i - border + 1, i);
-                    if (tmp_x.d_string[j].find(tmp_y.d_string[j]) != string::npos || tmp_y.d_string[j].find(tmp_x.d_string[j]) != string::npos) {
+                    if (tmp_x.d_string[j].find_first_of(tmp_y.d_string[j]) != string::npos || tmp_y.d_string[j].find_first_of(tmp_x.d_string[j]) != string::npos) {
                         num ++;
                     }
                 }
