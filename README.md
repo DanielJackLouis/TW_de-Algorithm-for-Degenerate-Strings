@@ -41,7 +41,7 @@ The output of this algorithm should be similar to the results in the screenshot 
 
 
 
-In the screenshot, the degenerate pattern is $\{a,b\}abab$ of length 5, and the text of length $100$ contains $6$ degenerate symbols. The same result from both TW_de and BF algorithms proves that all occurrences of the pattern can be found in the text by TW_de. The execution time of TW_de is $5.5\times 10^{-5}$ (sec), and the time of BF is $8.4\times10^{-5}$ (sec), meaning TW_de tends to be more efficient in the current example. 
+In the screenshot, the degenerate pattern is $\{ a,b\} abab$ of length 5, and the text of length $100$ contains $6$ degenerate symbols. The same result from both TW_de and BF algorithms proves that all occurrences of the pattern can be found in the text by TW_de. The execution time of TW_de is $5.5\times 10^{-5}$ (sec), and the time of BF is $8.4\times10^{-5}$ (sec), meaning TW_de tends to be more efficient in the current example. 
 
 
 
