@@ -37,7 +37,7 @@ The algorithms execute on randomly generated data in real-time. The modified gen
 ## Output
 The output of this algorithm should be similar to the results in the screenshot below.
 
-![Execution Results](https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/e6c9d24egy1h4zn9mm3cqj21c00u0te2.jpg)
+![Execution Results](https://i0.wp.com/tva1.sinaimg.cn/large/e6c9d24egy1h4zn9mm3cqj21c00u0te2.jpg)
 
 
 
