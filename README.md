@@ -1,7 +1,7 @@
 # Two-way Algorithm on Degenerate Strings
 Two-way algorithm is an searching algorithm that finds out occurrences of both regular and degenerate patterns in an regular or degenerate text. 
 
-> A degenerate string of length $n$ which is defined by the existence of one or more positions that can be represented as a sequence of $x=x[1]x[2]\dots x[n]$ where $\Sigma$ is an given alphabet and $\forall i\in [1\dots i],\ x[i]\subset \Sigma$. For instance, $\{a,b\}ab{a,b}$ is a degenerate string of length 4 over $\Sigma=\{a,b\}$.
+> A degenerate string of length $n$ which is defined by the existence of one or more positions that can be represented as a sequence of $x=x[1]x[2]\dots x[n]$ where $\Sigma$ is an given alphabet and $\forall i\in [1\dots i],\ x[i]\subset \Sigma$. For instance, $\lbrace a,b\rbrace ab\lbrace a,b\rbrace$ is a degenerate string of length 4 over $\Sigma=\lbrace a,b\rbrace$.
 
 Algorithms in this project is based on the terminology described in the final project by Wenyao Zhu, supervised by *Costas S. Iliopoulos*. 
 
@@ -21,7 +21,7 @@ The algorithms execute on randomly generated data in real-time. The modified gen
 + Define the pattern and text. 
 
   + Through generation. For example, the code to generate a random degenerate text of length 1000 which has 60 degenerate symbols is written as `degenerateString rand_ds_t=gen_ds_random(1000, 60)`.
-  + Through assignment. For instance, the following code assign a degenerate string $\{a,b\}baba$ to the variable `rand_ds_x`: 
+  + Through assignment. For instance, the following code assign a degenerate string $\lbrace a,b\rbrace baba$ to the variable `rand_ds_x`: 
 ```c++
 		// Pattern preparation
     degenerateString rand_ds_x;
